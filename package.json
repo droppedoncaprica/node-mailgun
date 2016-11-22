@@ -1,6 +1,6 @@
 {
   "name": "mailgun-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Mailgun Test, based off of the mailgun module",
   "author": "shz",
   "repository": {
