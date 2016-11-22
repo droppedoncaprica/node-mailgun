@@ -1,13 +1,13 @@
 {
-  "name": "mailgun",
-  "version": "0.5.1",
-  "description": "Mailgun for Node.js",
+  "name": "mailgun-test",
+  "version": "0.0.1",
+  "description": "Mailgun Test, based off of the mailgun module",
   "author": "shz",
   "repository": {
     "type": "git",
-    "url": "git@github.com:shz/node-mailgun.git"
+    "url": "git@github.com:droppedoncaprica/node-mailgun.git"
   },
   "main": "./mailgun",
-  "homepage": "http://github.com/shz/node-mailgun",
+  "homepage": "https://github.com/droppedoncaprica/node-mailgun",
   "engine": "node"
 }

@@ -202,7 +202,9 @@ Mailgun.prototype.sendRaw = function(sender, recipients, rawBody) {
 
     // If the user supplied a callback, fire it and set `err` to the
     // status code of the request if it wasn't successful.
-    if (callback) callback(res.statusCode != 201 ? new Error(res.statusCode) : undefined);
+    if (callback) {
+      callback(res.statusCode != 201 ? new Error(res.statusCode + ' - ' + res.statusMessage) : undefined);
+    }
   });
 
   // Wrap up the request by sending the message, which contains the
